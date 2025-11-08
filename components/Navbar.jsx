@@ -27,7 +27,7 @@ export default function Navbar() {
             href: '#',
             hasDropdown: true,
             dropdownItems: [
-                { name: 'University Search', href: '/university-search' },
+                { name: 'University Search', href: '/universities' },
                 { name: 'Course Search', href: '/course-search' }
             ]
         },
@@ -155,7 +155,7 @@ export default function Navbar() {
                                     : 'bg-white text-slate-800 hover:bg-gray-100 shadow-lg hover:shadow-xl'
                                     }`}
                             >
-                                SignUp
+                                Create
                             </a>
                         </div>
 
